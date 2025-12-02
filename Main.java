@@ -134,7 +134,7 @@ public class Main {
         }
         
         System.out.println("Сравнение после сериализации:");
-        for (int i = 1; i < tabulatedComposition.getPointsCount(); i++) {
+        for (int i = 0; i < tabulatedComposition.getPointsCount(); i++) {
             double original = tabulatedComposition.getPointY(i);
             double after = deserialized.getPointY(i);
             System.out.printf("Точка %d: исходная=%.6f, после сериализации=%.6f%n", 

@@ -1,7 +1,7 @@
 package functions;
 import java.io.*;
 
-public class LinkedListTabulatedFunction implements TabulatedFunction, Serializable {
+public class LinkedListTabulatedFunction implements TabulatedFunction, Externalizable {
     
     private class Node {
         FunctionPoint point;
